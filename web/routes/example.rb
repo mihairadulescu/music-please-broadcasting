@@ -4,7 +4,8 @@ class MusicPleaseBroadcasting::Application
   route "pagehook" do |r|
     r.is do
       r.get do
-        test = r.params.to_s
+        test = r.params
+        test['hub.challenge']
       end
     end
   end
