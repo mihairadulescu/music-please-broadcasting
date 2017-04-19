@@ -1,8 +1,0 @@
-development: &base
-  database_url: 'postgres://localhost/music_please_broadcasting_development'
-  session_secret: '7256a8059f7b60c964f7e616dc2b50e2'
-test:
-  <<: *base
-  database_url: 'postgres://localhost/music_please_broadcasting_test'
-production:
-  <<: *base
