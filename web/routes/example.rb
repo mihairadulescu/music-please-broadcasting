@@ -4,7 +4,7 @@ class MusicPleaseBroadcasting::Application
   route "pagehook" do |r|
     r.is do
       r.get do
-        r.params
+        test = r.params.to_s
       end
     end
   end
