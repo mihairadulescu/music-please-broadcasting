@@ -7,7 +7,7 @@ gem "dry-web", ">= 0.6.0"
 gem "dry-web-roda", ">= 0.6.0"
 gem "puma"
 gem "rack_csrf"
-
+gem "koala"
 gem "rack", ">= 2.0"
 gem "shotgun", ">= 0.9.2"
 
