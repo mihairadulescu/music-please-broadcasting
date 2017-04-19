@@ -2,8 +2,10 @@
 
 class MusicPleaseBroadcasting::Application
   route "pagehook" do |r|
-    r.get do
-      {}
+    r.is do
+      r.get do
+        'facebook hook verification'
+      end
     end
   end
 end
